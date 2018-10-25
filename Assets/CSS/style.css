@@ -1,0 +1,123 @@
+body {
+    color: #777777; 
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.topgrid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    color: #cccccc; 
+    border-bottom: solid; 
+}
+
+h1 {
+    font-family: "Georgia", 'Times New Roman', Times, serif;
+}
+
+.toptab {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+.navbar {
+    align-self: center;
+    justify-content: space-evenly;
+    word-spacing: 10px; 
+    text-decoration: none;
+}
+.navbar a {
+    text-decoration: none;
+}
+.centerblock {
+    background-image: url("../Images/background.png");
+    position: absolute;
+    width: 100%;   
+}
+
+.whitebox {
+    position: relative;
+    background: white;
+    width: 60%;
+    margin: 5% 20%; 
+    border: solid;
+    border-color: #dddddd;
+}
+
+hr {
+    background-color:#dddddd;
+    height: 3px; 
+}
+
+#mypic {
+    transform: rotate(90deg);
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px; 
+}
+
+.aboutme {
+    color: #4aaaa5;
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+.ptext {
+    color: #777777;
+    width: 100%; 
+    margin-top: -16px; 
+}
+
+.portfoliopics {
+    position: relative; 
+    /* float: left;  */
+}
+
+.float {
+    float:left; 
+}
+
+.textonpic {
+    position: relative;
+    bottom: 80px; 
+    width: 200px;
+    height: 50px; 
+    background-color: #4aaaa5; 
+    color: #ffffff; 
+    text-align: center;
+    /* top: 40%;  */
+}
+
+.teal {
+    background-color: #4aaaa5;
+    height: 5px; 
+    clear: both;
+}
+
+.grey {
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    font-size: 70%;
+    padding: 10px 10px 0px 10px; 
+}
+
+.clearfix:before,
+.clearfix:after {
+   content: " "; /* 1 */
+   display: table; /* 2 */
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+/**
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+.clearfix {
+   *zoom: 1;
+}
